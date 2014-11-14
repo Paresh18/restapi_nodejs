@@ -31,7 +31,7 @@ app.use('/users', users);
 
 app.get('/index1');
 app.get('/index1/:id');
-/*
+
 
 
 
