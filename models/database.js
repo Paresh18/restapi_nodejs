@@ -1,6 +1,6 @@
 var mongoose = require('mongoose')
 var Schema = mongoose.Schema;
-var workoutSchema = new Schema(
+var dataSchema = new Schema(
 {
     name :{
 	type :String,
@@ -21,9 +21,9 @@ var workoutSchema = new Schema(
 	}
 	});
 	
-var workout = mongoose.model('workout',workoutSchema);
+var database = mongoose.model('database',dataSchema);
 
 module.exports = 
 {
-Workout:workout
+data:database
 };
