@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
-var pdata =require('./routes/index1');//workout =pdata
+var pdata =require('./routes/index1');
 var mongoose = require('mongoose');
 
 mongoose.connect('mongodb://localhost/workout_tracker');
